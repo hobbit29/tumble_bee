@@ -7,3 +7,7 @@ reverse([H|T],R):-
  )
  ;
  R is H.
+
+
+% output?- reverse([1,2,3,4],M)
+% M=[4,3,2,1]
