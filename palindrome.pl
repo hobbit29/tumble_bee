@@ -5,3 +5,6 @@ palind(L) :-
  palind(T)
  ;
  write('Not a palindrome').
+
+% output?- palind([n,i,t,i,o]).
+% not a palindrome.
