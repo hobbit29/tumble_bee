@@ -7,3 +7,7 @@ maxlist([H|T],R):-
  maxlist(T,M1),
  H<M1,
  R is M1.
+
+
+% output?- maxList([List], M).
+% M=max element
