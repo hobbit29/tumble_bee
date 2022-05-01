@@ -19,3 +19,7 @@ fact(N,F):-
   F is N*F1
  )
 ).
+
+
+% output?- fact (9,M).
+% M=362880
