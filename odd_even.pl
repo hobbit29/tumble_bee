@@ -13,3 +13,7 @@ oddeven([H|T]):-
            ;
            oddlength
        ).
+
+
+%output?- oddeven([12,34]).
+% even
